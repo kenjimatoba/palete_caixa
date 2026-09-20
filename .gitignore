@@ -12,4 +12,6 @@ wheels/
 # arquivos
 *.xlxs
 *.csv
-*xlx
+*.xlx
+*.pdf
+*.pptx

@@ -1,0 +1,20 @@
+Instalação do "uv"
+	- Alternativa para o pip
+	- Bem mais rápido que o pip install. Grande vantagem é a velocidade de instalação dos pacotes
+
+
+'''	
+venv -> sempre instalado na pasta do projeto 
+'''
+
+(uv init) -> vai iniciar o projeto 
+
+
+(uv add ipykernel) -> instalando o kernel do python na pasta
+
+
+(uv add matplotlib pulp numpy) -> instalção do pacotes 
+
+-----
+instação do Git
+(git init) = começar a salvar os arquivos
