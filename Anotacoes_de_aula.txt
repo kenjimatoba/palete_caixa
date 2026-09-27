@@ -1,3 +1,5 @@
+Aula 1 (13/09)
+
 Instalação do "uv"
 	- Alternativa para o pip
 	- Bem mais rápido que o pip install. Grande vantagem é a velocidade de instalação dos pacotes
@@ -18,3 +20,29 @@ venv -> sempre instalado na pasta do projeto
 -----
 instação do Git
 (git init) = começar a salvar os arquivos
+
+-----------------
+Aula 2 (20/09)
+
+#### Criação do Banco de Dados
+#### Banco de dados é um conjunto de tabelas. O Alchemy = conecta o pyhton ao banco de dados
+#### uv add sqlalchemy
+#### uv add bcrypt
+#### uv add python-dotenv   
+#### uv add psycopg2
+- Fizemos somente as configurações iniciais. Não linkamos o banco de dados ao Python.
+
+-----------------
+Aula 3 (27/09)
+Linkando o banco de dados ao python
+
+
+
+
+
+
+
+
+
+
+
