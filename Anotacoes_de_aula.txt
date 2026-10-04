@@ -18,7 +18,7 @@ venv -> sempre instalado na pasta do projeto
 (uv add matplotlib pulp numpy) -> instalção do pacotes 
 
 -----
-instação do Git
+instação do Git no Terminal
 (git init) = começar a salvar os arquivos
 
 -----------------
@@ -35,6 +35,11 @@ Aula 2 (20/09)
 -----------------
 Aula 3 (27/09)
 Linkando o banco de dados ao python
+
+Rodar o Streamlit no terminal 
+
+(uv run streamlit run app.py)
+
 
 
 
