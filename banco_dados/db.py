@@ -17,10 +17,12 @@ PASS = os.getenv("PASS")
 url = f"postgresql+psycopg2://{USER}:{PASS}@{HOST}:{PORT}/{DATABASE}"
 # url = "postgresql+psycopg2://kenjimatoba:123@localhost:5432/db_palete_caixa"
 
+# Conecta com o banco de dados - PostGres
 def get_engine() -> Engine:
     return create_engine(url, connect_args={"sslmode": "prefer"}, 
                          pool_pre_ping=True)
 
+# Desconecta com o banco de dados - PostGres
 def disconnect_engine(engine: Engine):
     engine.dispose()
 
