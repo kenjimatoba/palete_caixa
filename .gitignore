@@ -17,3 +17,9 @@ wheels/
 *.pptx
 *.env
 __pycache__
+*.png
+
+solucoes_salvas
+senha_aws.txt
+token_git.txt
+Anotacoes_de_aula.txtsenha_aws.txt
