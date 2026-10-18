@@ -9,12 +9,12 @@ from datetime import datetime
 load_dotenv("db_palete_caixa.env", override=True)
 
 HOST = os.getenv("HOST")
-PORT = os.getenv("PORT")
+DB_PORT = os.getenv("DB_PORT")
 USER = os.getenv("USER")
 DATABASE = os.getenv("DATABASE")
 PASS = os.getenv("PASS")
 
-url = f"postgresql+psycopg2://{USER}:{PASS}@{HOST}:{PORT}/{DATABASE}"
+url = f"postgresql+psycopg2://{USER}:{PASS}@{HOST}:{DB_PORT}/{DATABASE}"
 # url = "postgresql+psycopg2://kenjimatoba:123@localhost:5432/db_palete_caixa"
 
 # Conecta com o banco de dados - PostGres
