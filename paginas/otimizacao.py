@@ -56,6 +56,7 @@ def _secao_nova_solucao():
     st.divider()
 
     if st.button("▶ Executar Otimização", type="primary", width="stretch", key="btn_exec"):
+        st.rerun()
         if not nome_solucao.strip():
             st.warning("Informe o nome da solução / pedido.")
             st.session_state.pop("opt_resultado", None)
